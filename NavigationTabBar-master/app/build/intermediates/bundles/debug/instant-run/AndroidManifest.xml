@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kush.gagotias"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/icon1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.kush.galgotias.splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kush.galgotias.HorizontalNtbActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.kush.galgotias.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity android:name="com.kush.galgotias.code" />
+        <activity android:name="com.kush.galgotias.robo" />
+        <activity android:name="com.kush.galgotias.frag" />
+        <activity android:name="com.kush.galgotias.literature" />
+        <activity android:name="com.kush.galgotias.quiz" />
+        <activity android:name="com.kush.galgotias.blindcoding" />
+        <activity android:name="com.kush.galgotias.surfing" />
+        <activity android:name="com.kush.galgotias.encription" />
+        <activity android:name="com.kush.galgotias.spotdbug" />
+        <activity android:name="com.kush.galgotias.java" />
+        <activity android:name="com.kush.galgotias.robowar" />
+        <activity android:name="com.kush.galgotias.rann" />
+        <activity android:name="com.kush.galgotias.soccer" />
+        <activity android:name="com.kush.galgotias.cruiser" />
+        <activity android:name="com.kush.galgotias.maze" />
+        <activity android:name="com.kush.galgotias.cocc" />
+        <activity android:name="com.kush.galgotias.mm" />
+        <activity android:name="com.kush.galgotias.sudoku" />
+        <activity android:name="com.kush.galgotias.chess" />
+        <activity android:name="com.kush.galgotias.nerd" />
+        <activity android:name="com.kush.galgotias.draw" />
+        <activity android:name="com.kush.galgotias.solid" />
+        <activity android:name="com.kush.galgotias.click" />
+        <activity android:name="com.kush.galgotias.designer" />
+        <activity android:name="com.kush.galgotias.electro" />
+        <activity android:name="com.kush.galgotias.zph" />
+        <activity android:name="com.kush.galgotias.rubiks" />
+        <activity android:name="com.kush.galgotias.mad" />
+        <activity android:name="com.kush.galgotias.treasure" />
+        <activity android:name="com.kush.galgotias.funn" />
+        <activity android:name="com.kush.galgotias.electronics" />
+        <activity android:name="com.kush.galgotias.mechanical" />
+        <activity android:name="com.kush.galgotias.arts" />
+        <activity android:name="com.kush.galgotias.nfs" />
+        <activity android:name="com.kush.galgotias.cs" />
+        <activity android:name="com.kush.galgotias.emania" />
+        <activity android:name="com.kush.galgotias.loop" />
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">META_2K17</string>
+    <string name="your_string"><u>Event Description</u></string>
+    <string name="your_string1"><u>Event Organiser</u></string>
+    <string name="your_string2"><u>Message From The Team</u></string>
+
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/aaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kush.galgotias.code">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Spot the bug"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView2"
+        android:textStyle="italic|bold"
+
+        android:onClick="bug"
+        android:layout_below="@+id/abc1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/view" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="E/decryption"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView3"
+        android:textStyle="italic|bold"
+        android:onClick="encript"
+        android:layout_below="@+id/view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView3"
+        android:id="@+id/view2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Codestorm"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView4"
+        android:textStyle="italic|bold"
+android:layout_marginTop="20dp"
+        android:onClick="java"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView4"
+        android:id="@+id/view3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="E-surfing"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView5"
+        android:textStyle="italic|bold"
+android:layout_marginTop="20dp"
+        android:onClick="surf"
+        android:layout_below="@+id/view3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view4"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView5" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="z p h"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView7"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="20dp"
+        android:onClick="b7"
+        android:layout_below="@+id/view4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:id="@+id/view5"
+        android:layout_below="@+id/textView7" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="loop cup"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView8"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="20dp"
+        android:onClick="b8"
+        android:layout_below="@+id/view5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:id="@+id/view6"
+        android:layout_below="@+id/textView8"/>
+</RelativeLayout>

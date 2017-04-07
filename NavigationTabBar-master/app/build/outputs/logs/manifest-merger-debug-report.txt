@@ -1,0 +1,298 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:5:5-62:19
+MERGED from [com.github.devlight.navigationtabbar:navigationtabbar:1.2.5] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.github.devlight.navigationtabbar\navigationtabbar\1.2.5\AndroidManifest.xml:23:5-27:19
+MERGED from [com.android.support:design:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.github.devlight.navigationtabbar:navigationtabbar:1.2.5] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.github.devlight.navigationtabbar\navigationtabbar\1.2.5\AndroidManifest.xml:23:5-27:19
+MERGED from [com.android.support:design:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:9:9-41
+	android:supportsRtl
+		ADDED from [com.github.devlight.navigationtabbar:navigationtabbar:1.2.5] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.github.devlight.navigationtabbar\navigationtabbar\1.2.5\AndroidManifest.xml:26:9-35
+	android:hardwareAccelerated
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:7:9-44
+	android:allowBackup
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:8:9-37
+	android:largeHeap
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:10:9-33
+	android:theme
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.kush.galgotias.splash
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:12:19-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.kush.galgotias.HorizontalNtbActivity
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:19:9-21:77
+	android:configChanges
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:21:13-74
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:20:13-50
+activity#com.kush.galgotias.MainActivity
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:22:9-24:77
+	android:configChanges
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:23:13-41
+activity#com.kush.galgotias.code
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:25:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:25:19-39
+activity#com.kush.galgotias.robo
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:26:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:26:19-39
+activity#com.kush.galgotias.frag
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:27:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:27:19-39
+activity#com.kush.galgotias.literature
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:28:9-48
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:28:19-45
+activity#com.kush.galgotias.quiz
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:29:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:29:19-39
+activity#com.kush.galgotias.blindcoding
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:30:9-49
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:30:19-46
+activity#com.kush.galgotias.surfing
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:31:9-45
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:31:19-42
+activity#com.kush.galgotias.encription
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:32:9-48
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:32:19-45
+activity#com.kush.galgotias.spotdbug
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:33:9-46
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:33:19-43
+activity#com.kush.galgotias.java
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:34:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:34:19-39
+activity#com.kush.galgotias.robowar
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:35:9-45
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:35:19-42
+activity#com.kush.galgotias.rann
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:36:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:36:19-39
+activity#com.kush.galgotias.soccer
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:37:9-44
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:37:19-41
+activity#com.kush.galgotias.cruiser
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:38:9-45
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:38:19-42
+activity#com.kush.galgotias.maze
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:39:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:39:19-39
+activity#com.kush.galgotias.cocc
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:40:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:40:19-39
+activity#com.kush.galgotias.mm
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:41:9-40
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:41:19-37
+activity#com.kush.galgotias.sudoku
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:42:9-44
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:42:19-41
+activity#com.kush.galgotias.chess
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:43:9-43
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:43:19-40
+activity#com.kush.galgotias.nerd
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:44:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:44:19-39
+activity#com.kush.galgotias.draw
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:45:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:45:19-39
+activity#com.kush.galgotias.solid
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:46:9-43
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:46:19-40
+activity#com.kush.galgotias.click
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:47:9-43
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:47:19-40
+activity#com.kush.galgotias.designer
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:48:9-46
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:48:19-43
+activity#com.kush.galgotias.electro
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:49:9-45
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:49:19-42
+activity#com.kush.galgotias.zph
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:50:9-41
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:50:19-38
+activity#com.kush.galgotias.rubiks
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:51:9-44
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:51:19-41
+activity#com.kush.galgotias.mad
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:52:9-41
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:52:19-38
+activity#com.kush.galgotias.treasure
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:53:9-46
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:53:19-43
+activity#com.kush.galgotias.funn
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:54:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:54:19-39
+activity#com.kush.galgotias.electronics
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:55:9-49
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:55:19-46
+activity#com.kush.galgotias.mechanical
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:56:9-48
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:56:19-45
+activity#com.kush.galgotias.arts
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:57:9-42
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:57:19-39
+activity#com.kush.galgotias.nfs
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:58:9-41
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:58:19-38
+activity#com.kush.galgotias.cs
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:59:9-40
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:59:19-37
+activity#com.kush.galgotias.emania
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:60:9-44
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:60:19-41
+activity#com.kush.galgotias.loop
+ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:61:9-51
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml:61:19-39
+uses-sdk
+INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.github.devlight.navigationtabbar:navigationtabbar:1.2.5] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.github.devlight.navigationtabbar\navigationtabbar\1.2.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:design:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.devlight.navigationtabbar:navigationtabbar:1.2.5] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.github.devlight.navigationtabbar\navigationtabbar\1.2.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:design:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\AndroidStudioProjects\NavigationTabBar-master\app\src\main\AndroidManifest.xml

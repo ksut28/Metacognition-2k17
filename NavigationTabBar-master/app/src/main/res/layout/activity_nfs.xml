@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@color/White"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.kush.galgotias.spotdbug">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Need For Speed"
+
+            android:textColor="@color/White"
+            android:background="@color/Maroon"
+
+            android:textSize="30dp"
+
+            android:textStyle="italic|bold"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Description"
+            android:id="@+id/textView7"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nWho does not like speed in his/her life. Motivated by the same and the wonders of the very famous game, we bring to you in this Metacognition – 3 NFS. Need for Speed, also known by its initials NFS, is a racing video game franchise published by Electronic Arts and developed by several studios including EA Black Box, Criterion Games and Ghost Games. So let’s go and 1, 2, 3 and race off!!!
+
+\n\nRULES AND REGULATIONS:
+\n1. GAME VERSION:Need For Speed Most Wanted v1.3 English version.
+\n2. GENERAL RULES:There will be 3 rounds in total
+1st round
+\nThe players will be competing between 4 the players will be selected at random for a match with 3 sprint races depending on the sum of time of each player of the 3 races the top 2 or 1 (depending upon the entries) will be taken from that .
+\n2nd Round
+\nThe players will be competing between 4 the players will be selected at random for this match as well with 3 circuit races(2laps) depending on the sum of time of each player of the 3 races the top 4 (depending upon the entries) will be taken from that for the final round.
+\n3rd round
+\nThe Final 4 players will be competing between each other in 3 circuit races(3laps) depending on the sum of time of each player of the 3 races the top 1 will be announced as the winner.
+\n3. GAME TYPE
+\n1. Host, client will be announced before the match or decided by coin toss. (Only for LAN tournament)
+\n2. Other controllers: Steering Wheels are not allowed. You can bring your own keyboard or controller, but everything should be USB. PS2’s are not allowed. We are not going to provide any kind of headphones. Please bring your own headphones.
+\n3. At the end of each match, players must maintain the final screens and receive confirmation from a referee.
+\n4. In the 1st round during the time trial, everyone will have to use BMW M3 GTR bonus car.
+\n5. From the 2nd round onward, the use of a Porsche GT or BMW M3 is not allowed.
+\n6. You can use any other car of your choice.
+\n4. CAR SETTINGS
+• You can only change the colour if you want. No other visual upgrades are allowed.
+\n5.RACE MODE
+\nFirst and foremost rule, it is the player who gets to choose his transmission mode.
+\n6.GAME SETTINGS
+\n• Track Direction: Forward
+\n• Laps: 3 (Final and the Semifinals) Nitro: On
+\n• Collision Detection: Off
+\n• Performance Matching: Off
+\n• Minimum Number of Players 4
+\n• Car Damage: Off
+\nUpon Judgment By The Referee, Any Offending Player Will Be Charged With A Loss By Forfeit.
+\n7. COURSES
+\n• 1st round: World tour
+\n• 2nd Round: Diamond
+\n• 3rd Round: Heritage Heights
+\nThe Course selection may be changed prior to the tournament. Players will be informed of any such changes before the tournament.
+\n8. RULE CHANGES
+\nThe Administrators reserve the right to modify the rules as needed. This includes changes due to software updates or releases, event organizer decisions and all other changes deemed necessary to run a successful tournament. Teams are responsible to check the rules on a regular basis and prior to the event to ensure they are in complete compliance. Teams must understand that rules listed are guidelines to ensure fair and competitive play and are subject to interpretation by the administrators based on the spirit of the game."
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Organiser"
+            android:id="@+id/textView9"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Abbhas (+91 8130027429)"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@color/White"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.kush.galgotias.spotdbug">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Counter Strike"
+
+            android:textColor="@color/White"
+            android:background="@color/Maroon"
+
+            android:textSize="30dp"
+
+            android:textStyle="italic|bold"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Description"
+            android:id="@+id/textView7"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nCounter-Strike (officially abbreviated as CS) is a series of multiplayer first-person shooter video games, in which teams of terrorists and counter-terrorists battle to, respectively, perpetrate an act of terror (bombing, hostage-taking) and prevent it (bomb defusal, hostage rescue). Seeing a huge fan following in this wondrous game, we thought of looking up a perfect battle field and here at Metacognition – 3, we give you that field! Now come on and let the battle begin!!
+
+\nRules and Scoring:
+\n1. Game Version: Counter-Strike 1.6
+\n2. Competition Method : 5 vs. 5 (Team Play, 5 players per team)
+\n3. As a default 1 mouse and 1 keyboard will be provided for all players other than that players can bring their own mouse, keyboard and headphones.
+\n4. Rounds: 10 Rounds (Max rounds format): 5 rounds as Terrorists and 5 rounds as Counter-Terrorists per team (If a team scores 6 rounds first, the match is ended immediately.)
+\n5. Victory Condition: The first team to win 6 rounds.
+\n6. Round Time: 1 minute 45 seconds.
+\n7. The team playing as the Terrorist side first will be announced before the match or decided by coin toss.
+\n8. Team players can talk to each other during freeze time
+\n9. In the case of a tie after the regulation rounds end, 2 extra rounds will be played. (1 rounds as Terrorists / 1 rounds as Counter-Terrorists per team) In the case of yet another tie 1 additional extra rounds will be played to break the tie the sides will be decided by a toss.
+\n10. Official Maps: De_Dust2, De_Inferno, De_Nuke, De_Train
+\n11. Team members must only use team message (messagemode2), while in a match.
+\n12. At the end whatever the decision referee makes will be the final decision no objection will be tolerated on that.
+
+\n\nTournament Server Settings
+\n1. mp_autocrosshair 0
+\n2. mp_buytime 0.25
+\n3. mp_fadetoblack 1
+\n4. mp_flashlight 1
+\n5. mp_freezetime 15
+\n6. mp_friendlyfire 1
+\n7. mp_roundtime 1.75
+\n8. mp_tkpunish 0
+\n9. sv_cheats 0
+\n10. sv_clipmode 0
+\n11. sv_gravity 800
+\n12. sv_lan_rate 25000
+\n13. sv_maxrate 25000
+\n14. sv_maxspeed 320
+\n15. sv_maxupdaterate 101
+
+\nUnfair Practices Subject to Penalty
+\nThe following is a list rules and unfair practices
+\n1.Any player or team caught breaking a rule or performing an infraction will be subject to either a warning, at the minimum, or a forfeit loss, at the discretion of the referee.
+\n2.When a player has died, he may communicate verbally with other players, but he must remove his hands from his keyboard and mouse until the beginning of the next round.
+\n3.A player is deemed dead when the screen is completely faded to black.
+\n4.If a player touches his mouse or keyboard while dead, the team will be subject to either a warning, at the minimum, or a forfeit loss, at the discretion of the referee.
+\n5.The use of ‘SKY Box’ will result in a loss by default for the offending team.
+\n6.If the referee decides that external conditions (Press, Team Leader, Player, Spectator, etc) give unfair advantage to a player, the team may be given a warning or lose by default at the referee’s sole discretion."
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Organiser"
+            android:id="@+id/textView9"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Abbhas (+91 8130027429)"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/aaa"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kush.galgotias.code">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Clash_Con"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/White"
+
+        android:textSize="20dp"
+
+        android:gravity="center_horizontal"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:textStyle="italic|bold"
+
+        android:layout_centerHorizontal="true"
+        android:onClick="f1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/abc1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="mini militia"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView2"
+        android:textStyle="italic|bold"
+
+        android:onClick="f2"
+        android:layout_below="@+id/abc1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/view1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Need for Speed"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView3"
+        android:textStyle="italic|bold"
+        android:onClick="f3"
+        android:layout_below="@+id/view1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView3"
+        android:id="@+id/view" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Counter strike"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView4"
+        android:textStyle="italic|bold"
+        android:onClick="f4"
+        android:layout_below="@+id/view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView4"
+        android:id="@+id/view2" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kush.galgotias">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/icon1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HorizontalNtbActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity android:name=".code" />
+        <activity android:name=".robo" />
+        <activity android:name=".frag" />
+        <activity android:name=".literature" />
+        <activity android:name=".quiz" />
+        <activity android:name=".blindcoding" />
+        <activity android:name=".surfing" />
+        <activity android:name=".encription" />
+        <activity android:name=".spotdbug" />
+        <activity android:name=".java" />
+        <activity android:name=".robowar" />
+        <activity android:name=".rann" />
+        <activity android:name=".soccer" />
+        <activity android:name=".cruiser" />
+        <activity android:name=".maze" />
+        <activity android:name=".cocc" />
+        <activity android:name=".mm" />
+        <activity android:name=".sudoku" />
+        <activity android:name=".chess" />
+        <activity android:name=".nerd" />
+        <activity android:name=".draw" />
+        <activity android:name=".solid" />
+        <activity android:name=".click" />
+        <activity android:name=".designer" />
+        <activity android:name=".electro" />
+        <activity android:name=".zph" />
+        <activity android:name=".rubiks" />
+        <activity android:name=".mad" />
+        <activity android:name=".treasure" />
+        <activity android:name=".funn" />
+        <activity android:name=".electronics" />
+        <activity android:name=".mechanical" />
+        <activity android:name=".arts" />
+        <activity android:name=".nfs" />
+        <activity android:name=".cs" />
+        <activity android:name=".emania" />
+        <activity android:name=".loop"></activity>
+    </application>
+
+</manifest>

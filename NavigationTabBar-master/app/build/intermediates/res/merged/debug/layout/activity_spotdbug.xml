@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/White"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kush.galgotias.spotdbug">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Spot The Bug"
+
+        android:textColor="@color/White"
+        android:background="@color/Maroon"
+
+        android:textSize="30dp"
+
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Event Description"
+        android:id="@+id/textView7"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Love to detect flaws in a code;\nwell here we are with a challenge for you!
+\nCode analyzers never get tired and can find errors a human’s eye cannot easily notice. We have picked a few codes and we invite you to take part in a competition against code analyzers to test your agility by trying to find the errors by yourself.
+\n\nSkill Required: C language\n
+Rules:\n
+1. For the event a player would be provided with code in turbo C++.\n
+2. A player has to find out the errors in the code and remove them.\n
+3. The game can consist of two rounds.\n
+4. Round 1 will be of 20mins and Round 2 of 30 mins.\n
+5. For round 2 some tricky codes will be provided with some missing lines or errors.\n
+Team Members: 1 person\n
+\n
+Scoring:\n
+Winner will be decided on the basis of maximum number of bugs solved in the given time interval.\n
++1 marks for each bug."
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Event Organiser"
+        android:id="@+id/textView9"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nShubham Kumar : 9696565171\n
+  Pratibha Raj Singh : 9810896991"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
+</ScrollView>

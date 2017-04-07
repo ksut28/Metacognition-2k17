@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@color/White"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.kush.galgotias.spotdbug">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Robo Cruiser"
+
+            android:textColor="@color/White"
+            android:background="@color/Maroon"
+
+            android:textSize="30dp"
+
+            android:textStyle="italic|bold"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Description"
+            android:id="@+id/textView7"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nThis event is all about the battle and race between two bots for collecting more jewels and more score points.
+\n\nSTATEMENT-(Wired or wireless)
+\n1. There will be a competition between two bots.Firstly the bots will face an individual track of two meters having some hurdles and the obstacles through which they have to reach to the battle arena.
+\n2. In battle arena jewels (jewels are in the shape of cube having dimensions (3*3)inch.) are placed at specifics points different jewels having different values.
+\n3. Queen jewel; having maximum points. (Only one will be provided per round)
+\n4. The battle arena having two specified area for each bots where they put their jewels.
+\n5. The bot can oppose the other bot to collect the jewels and can also drag out the scored jewels of opponent team.
+\n6. The queen jewel can’t be drag out from the one area once it is scored by one team.
+\n7. There is no time limit.
+\n8. There will be elimination rounds.
+\n9. The event having two rounds R1 AND R2. In which R2 is final round.
+\n10. The positions will be according to the scores gained.
+\n\n
+ROBOTS
+\n1. The size should not exceed 30cm*30cm of dimensions.
+\n2. Weight should not exceed 1.5kg.
+\n3. Robot should not use more than 12volt power supply.
+\n4. The substitution of robots during the competition within the team or other teams is forbidden.
+\n5. No physical intervention in the arena would be tolerated. This would lead to direct disqualification.
+\n6. Robots should be controlled by the designated controller and not by physical pulling and pushing.
+\n\n
+EVENT RULES AND REGULATIONS:-
+\n1. Team size = 4 members (max).
+\n2. The judge’s decision at any point would be final.
+\n3. The organizers have the right to disqualify anyone if any team breaks any rule.
+\n4. Teams cannot make changes on the robots during a round. They can, however, make any changes between successive rounds.
+\n5.Any kind of weapons that are intentionally added to harm the opponent robot would not be accepted.
+\n6. If special circumstances, such as unforeseen problems, rules maybe modified by the organizers, if necessary even during any event.
+\n7. It is expected that all participants, students and spectators, respect the event. It is not whether you win or lose, but how much you learn that counts."            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Organiser"
+            android:id="@+id/textView9"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Avanish Gautam Singh (9560788292)\n B.Ravi Subhramanyam (9999401346))"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

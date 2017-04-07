@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@color/White"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.kush.galgotias.spotdbug">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mini Militia"
+
+            android:textColor="@color/White"
+            android:background="@color/Maroon"
+
+            android:textSize="30dp"
+
+            android:textStyle="italic|bold"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Description"
+            android:id="@+id/textView7"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nExperience intense combat using local wi-fi. Train with the Sarge and sharpen your skills in Training, Co-op and Survival modes. Shoot a multitude of weapon types including the sniper, shotgun and flamethrower. And it all over!
+\n\nRules:
+\n1. Players will bring their own smartphones.
+\n2. No hacked version will be allowed, contestant will be given updated and clean version prior to the event.
+\n3. Contestant will have to report on time, no special match or whatsoever will be conducted in his favor.
+\n4. Contestant will be required to charge their phone minimum 75% or above to avoid any hassle for charger.
+\n5. Any kind of obscenity, violence, misconduct won't be tolerated ultimate result will be disqualification
+\n6. It will be played at an individual level
+\n\nSCORING:
+\nThis event involves multiplayer gaming over LAN WIFI in which 10 players will fight against each other in a 15 minutes match the one who scores most kills grabs the prize."
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Organiser"
+            android:id="@+id/textView9"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Revant Tiwari (9818288704))"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

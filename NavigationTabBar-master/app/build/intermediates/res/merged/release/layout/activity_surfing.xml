@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kush.galgotias.surfing">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="E-surfing"
+
+        android:textColor="@color/White"
+        android:background="@color/Maroon"
+
+        android:textSize="30dp"
+
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Event Description"
+        android:id="@+id/textView7"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Let your fingers work their magic!\n
+Spending hours on Google,going from one link to another and finally reaching a page which has no connection to your initial query?If fast typing is your forte and using the internet craftly, one of your assets, here is the perfect opportunity.\nSo go grab it; It doesn't often come along!\n
+\nGeneral Rules\n
+1)Participants have to surf the web, literally.\n
+2)There will be two rounds conducted on two different days.\n
+3)First round will be the elimination round.The participants will be given some queries and they are to find their answer by surfing it on the web.\n
+4)Elimination will be based on marks scored by each participant .Questions will be provided on a sheet.\n
+5)In the next round , the participants will have to buy different items from an online shopping store,within a fixed amount decided by the coordinators.\n
+6)No item is to be repeated twice.\n
+7)The organizers reserve the right to change any or all of the rules as they deem fit. Changes in rules, if any, will be highlighted on the webpage at a suitable time prior to the event.\n
+\n\n
+SCORING \n
+1)During elimination round,marks will be awarded for each right question.\n
+2)In round two,marks will be awarded based on the number of products bought.\n
+
+WINNING CRITERIA\n
+The person buying the maximum number of items in round two will be the winner.\n"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Event Organiser"
+        android:id="@+id/textView9"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sagar Ahlawat : 8791799480"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@color/White"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.kush.galgotias.spotdbug">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Solid Works"
+
+            android:textColor="@color/White"
+            android:background="@color/Maroon"
+
+            android:textSize="30dp"
+
+            android:textStyle="italic|bold"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Description"
+            android:id="@+id/textView7"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nTeam metacognition brings to you the very 3D Designing Software. If you are interested in designing in3D we are set to place you in the battle field. Get set ready and go!!
+\nRequirement: Laptop and Software
+\nRules and Scoring:
+\n1. The event involves designing competition of mechanical component using solidworks, Catia, Pro E, inventor like software.
+\n2. No restrictions in using any kind of 3D designing software.
+\n3. In this competition you have to design the given mechanical component like gear, nut and bolt, lathe bed, v block, u clamp, etc., within a given time.
+\n4. The winner is decided on the basis of accuracy and minimum time taken.
+\nTime:-1 hour
+\nTeam member-1"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Organiser"
+            android:id="@+id/textView9"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Deepak Kumar Choubey (8285006223)"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

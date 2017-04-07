@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/aaa"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.kush.galgotias.code">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="nerd or noob"
+            android:textAllCaps="true"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/White"
+
+            android:textSize="20dp"
+
+            android:gravity="center_horizontal"
+            android:id="@+id/textView1"
+            android:layout_alignParentTop="true"
+            android:textStyle="italic|bold"
+
+            android:layout_centerHorizontal="true"
+            android:onClick="b1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:layout_below="@+id/textView1"
+            android:id="@+id/abc1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="rubik's cube"
+            android:textAllCaps="true"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView2"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="20dp"
+            android:onClick="b8"
+            android:layout_below="@+id/abc1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:id="@+id/view1"
+            android:layout_below="@+id/textView2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="treasure hunt"
+            android:textAllCaps="true"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView3"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="20dp"
+            android:onClick="b10"
+            android:layout_below="@+id/view1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:id="@+id/view2"
+            android:layout_below="@+id/textView3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="chess master"
+            android:textAllCaps="true"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView4"
+            android:textStyle="italic|bold"
+            android:onClick="f3"
+            android:layout_below="@+id/view2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:layout_below="@+id/textView4"
+            android:id="@+id/view3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="sudoku"
+            android:textAllCaps="true"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView5"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="20dp"
+            android:onClick="f4"
+            android:layout_below="@+id/view3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:layout_below="@+id/textView5"
+            android:id="@+id/view4"></View>
+    </RelativeLayout>
+</ScrollView>

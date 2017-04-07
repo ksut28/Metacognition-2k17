@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kush.galgotias.robowar">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Robo War"
+
+        android:textColor="@color/White"
+        android:background="@color/Maroon"
+
+        android:textSize="30dp"
+
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Event Description"
+        android:id="@+id/textView7"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" It's bigger...Better...And Harder..!!
+
+With the increasing popularity of robotic combat sports, we present you ROBOWAR : \n\nBattle of the Bots\n\n
+
+*  General rules-\n\n
+1. The competition will be played on a knock-out basis.
+\n\n2. The bot will be inspected for safety before the event begins. If found to be unsafe for the participants/ spectators, it will be discarded.
+\n\n3. The organizers reserve the right to change any or all of the rules as they deem fit. Changes in rules, if any, will be highlighted on the webpage.
+\n\n4. Violation of any of the rules will result in immediate disqualification.
+\n\n5. The maximum time limit for the clash of combatants inside the arena is 10 minutes.
+\n\n6. A bot will be declared immobile (out) if it cannot exhibit linear motion of at least one inch within 30 seconds. A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement.
+\n\n7. Teams that are not ready when called for battle will be considered to have declared a walkover, and will receive no points.
+\n\n8. The bot cannot be split into two sub-units. Two distinct parts connected by a flexible cable will be considered separate units.
+\n\n9. Damaging the arena will lead to immediate disqualification.
+\n\n10. Lego kits, readymade kits, car bases and development boards are not permitted. Readymade gear boxes are permitted.
+\n\n11. In all cases, the judges decision will be final and binding.\n\n\n
+
+*  RoBot specifications:\n\n
+#Size-\n\n
+\n1. The size of bot can range from (600mm*600mm*800mm) to (800mm*800mm*800mm) (l*b*h).
+\n2. Any external control devices or tanks are not included in the size constraint.\n\n
+   #Weight classes-\n\n
+\n1. Weight of robot should not exceed 40 kg.
+\n2. Weight of external power source will not be counted.
+\n3. The robots can be of ROLLING or WALKING type.
+\n\n
+  #Mobolity-\n\n
+ \nAll robots must have easily visible and controlled mobility in order to compete.
+ \n\nMvethods of mobility include;
+\n1. Rolling (wheels,tracks,whole robot).
+\n2. Walking.
+\n3. Shuffling (rotational cam operated legs).
+\n4. Jumping and hopping is allowed.
+\n5. Flying is not allowed.
+\n\n
+* Area Specifications-
+\n\n1. Arena will be a rectangular area of dimension 3.5m*3.5m.
+\n2. A rectangular area of 70cm*70cm at one corner of the arena will be the starting zone for the bot.
+\n3. The two starting zones will be placed at the same end of the arena.
+\n4. The arena will have one hole. Pushing the opponent's bots into the hole will fetch points.
+\n5. The arena will be made of wood, and will be at a height of 0.5m above the ground.
+\n6. The arena will have a central region marked by a square box.
+\n\n
+*Scoring-
+\n\n1. Pushing a bot into a hole will fetch 50 points.
+\n2. The central region has 100 points.
+\n3. Pushing a bot at the end boundary till 15 sec will fetch 100 points.
+\n\n
+#Winning Criteria-
+\n\nA bot wins if its opponent is immobolized or thrown out of the arena. In case both the robots remain mobile at the end of the round, the winner will be decided under the rules as discussed in the scoring pattern.
+
+"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Event Organiser"
+        android:id="@+id/textView9"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nikhil : 8743809768"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+</ScrollView>
